@@ -42,8 +42,7 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>La Block quoi ?</h1>
-					<h3>Comprendre la technologie de la blockchain</h3>
+					<h2>Aperçu de la technologie blockchain</h2>
 					<p>
 						<small>Charles Couillard</small>
 					</p>
@@ -56,330 +55,196 @@
 				</section>
 
 				<section>
-					<h2>Hello There</h2>
-					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
+					<h2>Etude de cas</h2>
+					<ul>
+						<li class="fragment">La blockchain Bitcoin&nbsp;&nbsp;<img src="img/bitcoin.png" height="64" style="margin: 0"></li>
+						<li class="fragment">La blockchain Ethereum&nbsp;&nbsp;<img src="img/ethereum.png" height="64" style="margin: 0"></li>
+					</ul>
 				</section>
 
-				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						<h2>La blockchain Bitcoin</h2>
+						<ul>
+							<li class="fragment">Un grand registre de comptes</li>
+							<li class="fragment">Infalsifiable</li>
+							<li class="fragment">Décentralisé</li>
+							<li class="fragment">Dont la mise à jour est effectuée par le réseau lui-même</li>
+							<li class="fragment">Focalisée sur l'aspect monétaire</li>
+						</ul>
 					</section>
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+						<h2>Et techniquement ?</h2>
+						<ul>
+							<li class="fragment">"Une base de données"</li>
+							<li class="fragment">"Chiffrée"</li>
+							<li class="fragment">Distribuée</li>
+							<li class="fragment">Publique</li>
+							<li class="fragment">Open source</li>
+						</ul>
 					</section>
 					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
+						<h2>Entrons dans la matrice</h2>
 					</section>
 					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
+						<img src="img/schema.jpg">
+					</section>
+					<section>
+						<h2>Une adresse Bitcoin</h2>
+						<p>Une paire de clés publique / privée</p>
+						<p>1CC3X2gu58d6wXUWMffpuzN9JAfTUWu4Kj / 5Kb8kLf9zgWQnogidDA76MzPL6TsZZY36hWXMssSzNydYXYB9KF</p>
+					</section>
+					<section>
+						<img src="img/schema.jpg">
+					</section>
+					<section>
+						<h2>Une transaction</h2>
+						<img src="img/Bitcoin-transaction-hash-generation.png">
+					</section>
+					<section>
+						<h2>Une transaction</h2>
+						<img src="img/bitcoin-transaction-chain.png">
+					</section>
+					<section>
+						<img src="img/schema.jpg">
+					</section>
+					<section>
+						<h2>Un block</h2>
+						<img src="img/block.jpg">
+					</section>
+					<section>
+						<h2>Objectif du minage</h2>
+						<img src="img/minage-hash.png">
+					</section>
+					<section>
+						<h2>Un hash SHA-256</h2>
+						<p>Bonjour l'AEC</p>
+						<p>89bbc97ada916e164d60731f7c0462ef69feb5e8835a621cb65e3808a2d31541</p>
+						<p>Bonjour L'AECa</p>
+						<p>42d1aada456b0d4fb408b74b56007d29cd95774d506a641b97753fc8fabbe22b</p>
+					</section>
+					<section>
+						<img src="img/schema.jpg">
+					</section>
+					<section>
+						<h2>Une démo</h2>
+						<p>Une transaction Bitcoin</p>
+						<p><a href="http://blockchain.info" target="_blank">Le résultat</a></p>
+					</section>
+					<section>
+						<h2>Des applications autour de la blockchain Bitcoin</h2>
+						<ul>
+							<li class="fragment">Colu : Digital assets issuance</li>
+							<li class="fragment">Crypto Public Notary : Notarize Digital Work with Bitcoin</li>
+							<li class="fragment">Rootstock : Bring Smart Contracts to Bitcoin</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Focus sur les Colored Coins</h2>
+						<img src="img/colored-coin.png">
+					</section>
+					<section>
+						<h2>Colu</h2>
+						<a href="http://dashboard.colu.co" target="_blank">Démo</a>
+					</section>
+					<section>
+						<h2>Les limitations actuelles de la blockchain Bitcoin</h2>
+						<ul>
+							<li class="fragment">7 transactions par seconde</li>
+							<li class="fragment">Smart Contracts très limités</li>
+						</ul>
 					</section>
 				</section>
-
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
-
 				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+					<section>
+						<h2>La blockchain Ethereum</h2>
+						<ul>
+							<li class="fragment">Un grand registre de comptes</li>
+							<li class="fragment">Sécurisé</li>
+							<li class="fragment">Décentralisé</li>
+							<li class="fragment">Dont la mise à jour est effectuée par le réseau lui-même</li>
+							<li class="fragment">Un ordinateur décentralisé</li>
+							<li class="fragment">Permettant la création d'applications autonomes</li>
+						</ul>
 					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
+					<section>
+							<h2>Et techniquement ?</h2>
+							<ul>
+								<li class="fragment">"Une base de données"</li>
+								<li class="fragment">"Chiffrée"</li>
+								<li class="fragment">Distribuée</li>
+								<li class="fragment">Publique</li>
+								<li class="fragment">Open source</li>
+								<li class="fragment">Qui est capable de faire tourner du code</li>
+							</ul>
 					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+					<section>
+						<h2>Les Smarts Contracts Ethereum</h2>
+						<ul>
+							<li class="fragment">Du code</li>
+							<li class="fragment">Autonome</li>
+							<li class="fragment">Qui consomme du gas</li>
+						</ul>
 					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
+					<section>
+						<h2>Un language de programmation : EVM</h2>
+						<pre><code class="EVM">
+PUSH1 0 CALLDATALOAD SLOAD NOT PUSH1 9 JUMPI STOP JUMPDEST PUSH1 32
+CALLDATALOAD PUSH1 0 CALLDATALOAD SSTORE
+						</code></pre>
 					</section>
-					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-						<h2>... and GIFs!</h2>
-					</section>
-				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code class="hljs" data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
+					<section>
+						<h2>Des languages plus haut niveau: Solidity</h2>
+						<pre><code class="Solidity">
+contract Ballot
+	{
+    function winningProposal() constant
+            returns (uint winningProposal)
+    {
+        uint winningVoteCount = 0;
+        for (uint p = 0; p < proposals.length; p++)
+        {
+            if (proposals[p].voteCount > winningVoteCount)
+            {
+                winningVoteCount = proposals[p].voteCount;
+                winningProposal = p;
+            }
+        }
     }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+	}
+								</code></pre>
+					</section>
+					<section>
+						<h2>Le déploiement de code sur la Blockchain Ethereum</h2>
+						<img src="img/deploy-new-contract.png">
+					</section>
+					<section>
+						<h2>Le déploiement de code sur la Blockchain Ethereum</h2>
+						<img src="img/function-picker.png">
+					</section>
+					<section>
+						<h2>Le déploiement de code sur la Blockchain Ethereum</h2>
+						<img src="img/contract.png">
+					</section>
+					<section>
+						<h2>Les applications sur la blockchain Ethereum</h2>
+						<ul>
+							<li class="fragment">Slock.it : Blockchain + IoT, "Airbnb et Uber killer"</li>
+							<li class="fragment">Ujomusic : Vente de musique</li>
+							<li class="fragment">Augur : Prédiction décentralisée</li>
+						</ul>
+					</section>
 				</section>
-
 				<section>
-					<h2>Marvelous List</h2>
+					<h2>Que font les gros du marché ?</h2>
 					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
+						<li>Ethereum Blockchain as a Service now on Azure</li>
+						<li>IBM : ADEPT concept, or Autonomous Decentralized Peer-to-Peer Telemetry : Bitorrent, Ethereum, TeleHash</li>
 					</ul>
 				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							</tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							</tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
-
 				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
+					<h1>The end</h1>
+					<p>Merci !</p>
 				</section>
 
 			</div>
